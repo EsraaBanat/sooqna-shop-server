@@ -63,7 +63,6 @@ nodemon
 | **Path**      | **Method** | **Response and Usage** | **Who is can access this page** |
 |---------------|------------|------------------------|---------------------------------|
 | /wishlist     | get        | Get All Wishlists      | User Who is signed in           |
-| /wishlist     | post       | Create An Wishlist     | User Who is signed in           |
 | /wishlist/:id | delete     | Delete One Wishlist    | User Who is signed in           |
 | /wishlist     | delete     | Delete All Wishlists   | User Who is signed in           |
 
@@ -76,7 +75,6 @@ nodemon
 | **Path**  | **Method** | **Response and Usage** | **Who is can access this page** |
 |-----------|------------|------------------------|---------------------------------|
 | /cart     | get        | Get All Cart           | User Who is signed in           |
-| /cart     | post       | Create A Cart          | User Who is signed in           |
 | /cart/:id | delete     | Delete One Cart        | User Who is signed in           |
 | /cart     | delete     | Delete All in Cart     | User Who is signed in           |
 
@@ -86,4 +84,4 @@ nodemon
 ![](./DB.png)
 
 
-## [Deployed Link](https://agents-shop.herokuapp.com/)
+## [Server Link](https://agents-shop.herokuapp.com/)
