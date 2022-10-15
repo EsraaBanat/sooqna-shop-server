@@ -1,0 +1,39 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "## Full-Stack-Squad",
+  "main": "index.js",
+  "scripts": {
+    "start": "NOD_ENV=production node index.js",
+    "test": "NODE_ENV=test jest --coverage",
+    "dev": "NOD_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Full-Stack-Squad-js02/E-commerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Full-Stack-Squad-js02/E-commerce/issues"
+  },
+  "homepage": "https://github.com/Full-Stack-Squad-js02/E-commerce#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.3",
+    "sequelize-cli": "^6.4.1",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "sqlite3": "^5.0.10",
+    "supertest": "^6.2.4"
+  }
+}
