@@ -1,7 +1,7 @@
 'use strict';
 
 const {
-  comment,
+  comment,commentTabel
 } = require('../models/index-model');
 
 
@@ -19,7 +19,9 @@ async function addComment(req, res) {
 
 async function getComment(req, res) {
   let productId = req.params.id
-  let comments = await comment.getAll(productId);
+  let comments = await commentTabel.findAll({where: {
+                product_id: productId
+            }})
   res.status(200).json(comments);
 }
 
